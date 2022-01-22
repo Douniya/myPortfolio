@@ -1,9 +1,12 @@
-body {
+/* body {
   font-family: 'Raleway', sans-serif;
   background: rgba(242, 242, 242, .6);
   margin: 0;
+} */
+.body {font-family: 'Lato', sans-serif;
+  background: rgba(242, 242, 242, .6);
+  margin: 0;
 }
-
 * {
   box-sizing: border-box
 }
@@ -284,7 +287,7 @@ html{
 }
 body{
   margin: var(--header-height) 0 0 0;
-  font-family: var(--body-font);
+  /* font-family: var(--body-font); */
   font-size: var(--normal-font-size);
   color: var(--second-color);
 }
@@ -423,7 +426,8 @@ img{
   margin-bottom: var(--mb-5);
 }
 .home__title-color{
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: var(#eea072);
 }
 .home__social{
   display: flex;
